@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const crypto = require('crypto');
-require('./User'); // Make sure the User model is registered
+require('./user'); // Make sure the User model is registered
 
 // Helper: Encrypt message
 const encryptMessage = (text, encryptionKey) => {
